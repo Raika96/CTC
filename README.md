@@ -1,10 +1,14 @@
 ## Connectionist temporal classification (CTC)
 
-The back-end of CTC Forward-Backward algorithm is implemented in ctc class. 
-The forward and backward functions of CTC can be called separately.
+Connectionist Temporal Classification (CTC) has been introduced to overcome not knowing the alignment between the input and the output in tasks like speech recognition or Handwriting recognition.
+
+This repostiroy provides implementaiton of CTC from scratch using NumPy.
+The back-end of CTC Forward-Backward algorithm is implemented in CTC class. 
+The forward and backward functions of CTC can be called separately. 
 
 
-Also, The edit-distance function is provided for computing the edit distance between two string. 
+
+
 
 
 ## References
